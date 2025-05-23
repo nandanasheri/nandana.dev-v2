@@ -15,14 +15,15 @@ import Footer from "../components/Footer.astro"
 		<title>Nandana Sheri</title>
 	</head>
 	<body>
-		
 		<div class="flex justify-end md:justify-center gap-1 items-center">
 			<div class="absolute top-4 left-4">
 				<h2 class="text-xl text-accent-red font-bold font-poppins">Nandana Sheri</h2>
 			</div>
 			<NavBar/>
 		</div>
-		<slot />
+		<main>
+			<slot />
+		</main>
 		<Footer/>
 
 	</body>
@@ -37,7 +38,9 @@ import Footer from "../components/Footer.astro"
 		background-color: #FFF9FB;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
 		font-family: "Nunito"
+	}
+	main {
+	flex: 1;
 	}
 </style>
