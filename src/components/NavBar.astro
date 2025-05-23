@@ -1,6 +1,47 @@
 ---
-
-
+import { Icon } from 'astro-icon/components'
 ---
 
-<h1>NavBar</h1>
+
+    <nav>
+        <div class="flex justify-end">
+            <div id= "menu" class="hidden md:flex gap-4 text-poppins text-dark-red border px-4 py-1 rounded-2xl backdrop-blur-md bg-white/30">
+                <a href="/home">about</a>
+                <a href="/home">now</a>
+                <a href="/home">experience</a>
+                <a href="/home">projects</a>
+                <a href="/home">blog</a>
+                <a href="/home">leadership</a>
+            </div>
+            <button id="menu-toggle" class="md:hidden cursor-pointer transition-transform duration-200 hover:-translate-y-1">
+                <Icon name="hamburger" class="text-dark-red text-4xl"/>
+            </button>
+        </div>
+        
+        <div id= "mobile-menu" class="md:hidden flex flex-col gap-4 text-poppins text-dark-red border px-4 py-1 rounded-2xl backdrop-blur-md bg-white/30">
+            <a href="/home">about</a>
+            <a href="/home">now</a>
+            <a href="/home">experience</a>
+            <a href="/home">projects</a>
+            <a href="/home">blog</a>
+            <a href="/home">leadership</a>
+        </div>
+    </nav>
+    
+
+
+
+<script>
+    //   After DOM content has been loaded
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("mobile-menu");
+
+    if (toggle && menu) {
+         toggle.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+        });
+    }
+   
+  });
+</script>

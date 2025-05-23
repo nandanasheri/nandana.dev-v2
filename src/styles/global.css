@@ -5,6 +5,6 @@
   --color-dark-red: #4e0110;
   --color-accent-red: #ef233c;
   --color-snowhite: #fff9fb;
-  --font-nunito: "Nunito";
-  --font-poppins: "Poppins";
+  --font-nunito: "Nunito", "sans-serif";
+  --font-poppins: "Poppins", "sans-serif";
 }
