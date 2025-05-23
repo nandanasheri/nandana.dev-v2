@@ -2,9 +2,12 @@
 import "../styles/global.css";
 import Layout from '../layouts/Layout.astro';
 import Landing from "../components/Landing.astro";
-
+import About from "../components/About.astro";
 ---
 
 <Layout>
-	<Landing/>
+	<div class="flex flex-col gap-3 mx-auto my-10 lg:max-w-4xl justify-center items-center">
+		<Landing/>
+		<About/>
+	</div>
 </Layout>

@@ -1,0 +1,22 @@
+---
+import {Image } from "astro:assets";
+import nan from "../assets/nan.png";
+---
+
+<div class="flex flex-col gap-4  text-dark-red text-xl">
+    <h2 class="text-accent-red font-poppins font-bold text-3xl">&ltabout/&gt</h2>
+    <div class="flex flex-col gap-6">
+        <p>I'm Nandana (nun-the-nah) and I am an incoming MS student to University of Michigan, Ann Arbor.</p>
+        <p>I recently graduated from the University of Illinois Chicago with a BS in Computer Science & as a Bell Honor Recipient. I'm interested in Full Stack Development and exploring Natural Language Processing. I previously interned at CNA Insurance and won 1st place at Stanford's TreeHacks. </p>
+    </div>
+    <div class="flex flex-col md:flex-row gap-8">
+        <div class="flex flex-col gap-2">
+            <Image src={nan} alt="profile image" width={1000} class="w-full"/>
+            <p class="text-accent-red text-sm text-center italic">pictured at national cathedral, dc</p>
+        </div>
+        <div class="flex flex-col gap-6">
+            <p>I'm a strong believer in helping out the individuals who come after me and was able to do so through serving as President for Women in Computer Science. I also helped launch SparkHacks; UIC's own hackathon and served as Co-Director.</p>
+            <p>I love watching movies, exploring Chicago, rating experiences and reading!</p>
+        </div>
+    </div>
+</div>
