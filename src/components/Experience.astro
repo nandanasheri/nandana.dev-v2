@@ -1,7 +1,23 @@
 ---
+const experienceList = [
+    {date:"Jan 2022 to May 2025", role:"Teaching Assistant", company:"UIC CS Department", desc:"Supported over 400 students by debugging in C++ & Python through regular office hours for 5 courses: Advanced Data Structures, Program Design I, Program Design II, and Discrete Mathematics."},
+    {date:"June 2024 to Aug 2024", role:"SWE Intern", company:"LitPath", desc:"Engineered a full-stack React Admin Portal with a MySQL backend through Develop for Good, streamlining the management of 40,000+ therapist records."},
+    {date:"April 2024 to Aug 2024", role:"Research Assistant", company:"Northwestern University", desc:"Implemented machine learning models using Hugging Face's Wav2Vec2Phoneme Transformer for speech disorder classification in children aged 3-5, achieving a 20% increase in diagnostic accuracy."},
+    {date:"June 2023 to Aug 2023", role:"SWE Intern", company:"CNA Insurance", desc:"Led the redevelopment of the CNA Surety Portal, modernizing it with Google Cloud Platform, React.js, and TypeScript serving over 43,000 agencies."}
+
+]
 
 ---
-<div class="flex flex-col gap-4 text-dark-red text-xl">
+<div class="flex flex-col gap-4 text-dark-red text-xl w-full">
     <h2 class="text-accent-red font-poppins font-bold text-3xl">&ltexperience/&gt</h2>
-    
+    <div class="relative border-l-6 rounded border-accent-red flex flex-col gap-10 mt-10">
+        {experienceList.map(item => (
+            <div class="flex flex-col pl-10">
+                <div class="absolute -left-[0.56rem] w-3 h-3 rounded-full bg-accent-red mt-12"></div>
+                <h3 class="text-3xl font-bold font-poppins">{item.role}</h3>
+                <p class="text-xl text-gray-600">{item.company} - {item.date}</p>
+                <p class="mt-2 text-sm">{item.desc}</p>
+            </div>
+        ))}
+    </div>
 </div>
