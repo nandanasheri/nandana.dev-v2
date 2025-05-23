@@ -8,3 +8,7 @@
   --font-nunito: "Nunito", "sans-serif";
   --font-poppins: "Poppins", "sans-serif";
 }
+
+.link-highlight {
+  @apply font-bold hover:text-accent-red transition-colors duration-200;
+}
