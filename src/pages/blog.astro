@@ -18,7 +18,7 @@ const posts = await getCollection('posts');
                     <hr class="border-t border-darkgray" />
                     <div class="flex justify-between px-3 items-center">
                         <div class="flex flex-col">
-                            <h1 class="font-poppins font-bold text-2xl link-highlight"><a href={`/blog/${post.id}`}>{post.data.title}</a></h1>
+                            <h1 class="font-poppins font-bold text-2xl link-highlight"><a href={`/blog/${post.data.slug}`}>{post.data.title}</a></h1>
                             <p  class="text-base">{post.data.date}</p>
                         </div>
                         <p class="text-base">{post.data.time}</p>
