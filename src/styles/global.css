@@ -7,10 +7,35 @@
   --color-accent-red: #ef233c;
   --color-snowhite: #fff9fb;
   --color-darkgray: #BDB3B6;
+  --color-lightpink: #F9EDF1;
   --font-nunito: "Nunito", "sans-serif";
   --font-poppins: "Poppins", "sans-serif";
 }
 
 .link-highlight {
   @apply font-bold hover:text-accent-red transition-colors duration-200;
+}
+
+.box-dark {
+  @apply text-snowhite bg-dark-red ;
+}
+
+.box-accent {
+  @apply text-snowhite bg-accent-red;
+}
+
+.box-light {
+  @apply text-dark-red bg-lightpink;
+}
+
+.box-dark, .box-light, .box-accent {
+  @apply p-3 rounded-3xl
+}
+
+.box-dark h1, .box-light h1, .box-accent h1 {
+  @apply text-6xl font-bold
+}
+
+.box-dark p, .box-light p, .box-accent p {
+  @apply text-sm
 }
