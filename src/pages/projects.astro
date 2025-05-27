@@ -1,0 +1,173 @@
+---
+import "../styles/global.css";
+import Layout from '../layouts/Layout.astro';
+import { Icon } from 'astro-icon/components'
+
+const projects = [
+    {
+        title : "SurviveX",
+        stack : "ExecuTorch | SwiftUI | Llama-3.2",
+        description : "Placed first at TreeHacks 2025, this is an embedded AI assistant built for the Apple Vision Pro along with voice guidance to provide real-time survival assistance.",
+        github : "https://github.com/rockuutree/SurviveX-Treehacks",
+        link : "https://devpost.com/software/survivex",
+        imagePath : "/projects/survivex.gif",
+        alt : "dashboard of all courses"
+    },
+    {
+        title : "chat r3wind",
+        stack : "Astro | React | TypeScript | Tailwind | QwenLLM",
+        description : "chat-rewind is a privacy-focused application that provides you a Spotify like wrapped of your Whatsapp Archives",
+        github : "https://github.com/nayarmegha/chat-rewind",
+        link : "https://r3wind.chat/",
+        imagePath : "/projects/r3wind.png",
+        alt : "whatsapp wrapped image"
+    },
+    {
+        title : "course roast",
+        stack : "SQL | React | Express | Node",
+        description : "Built on the idea of creating more granular data, course roast aims to move away from making a class about a professor and instead focus on the class!",
+        github : "https://github.com/nandinijirobe/Course-Roast",
+        link : "https://github.com/nandinijirobe/Course-Roast",
+        imagePath : "/projects/course.png",
+        alt : "dashboard of all courses"
+    },
+    {
+        title : "timesheet automate",
+        stack : "Node | GoogleCalendarAPI | OAuth2 | React",
+        description : "An Application to Automate filling out Timesheet PDF's by directly accessing user's Google Calendar via OAuth2 to extract work hours and autofill the timesheet.",
+        github : "https://github.com/nandanasheri/timesheet-automate",
+        link : "https://github.com/nandanasheri/timesheet-automate",
+        imagePath : "/projects/automate.png",
+        alt : "dashboard of all courses"
+    },
+    {
+        title : "Silent Spaces",
+        stack : "MongoDB | Express | Node | React",
+        description : "Silent Spaces relies on crowdsourced info to deliver frequent, high-quality updates on crowdedness, ambient noise level, and wifi connectivity.",
+        github : "https://github.com/Olympicene/Silent-Spaces",
+        link : "https://github.com/Olympicene/Silent-Spaces",
+        imagePath : "/projects/automate.png",
+        alt : "dashboard of all courses"
+    },
+    {
+        title : "CS111 Course Website",
+        stack : "Astro | Tailwind",
+        description : "The official website for CS111 Summer at UIC. Built using Astro and React to showcase student projects, course logistics and updates.",
+        github : "https://111-summer.cs.uic.edu/",
+        link : "https://111-summer.cs.uic.edu/",
+        imagePath : "/projects/automate.png",
+        alt : "dashboard of all courses"
+    },
+    {
+        title : "Sunrise w Sarv",
+        stack : "Flask | React | OpenWeatherMaps API | Python",
+        description : "A demo application that predicts the chances of a good sunrise for the next day based off of cloud coverage and other factors. Built for CS351 at UIC (Spring 2025). ",
+        github : "https://github.com/University-of-Illinois-Chicago/flask-react-demo",
+        link : "https://github.com/University-of-Illinois-Chicago/flask-react-demo",
+        imagePath : "/projects/automate.png",
+        alt : "dashboard of all courses"
+    }
+]
+
+---
+
+<Layout>
+    <div class="flex-1 flex flex-col gap-4 text-dark-red text-xl justify-start mt-20 mx-auto lg:max-w-4xl w-full">
+        <h2 class="text-accent-red font-poppins font-bold text-3xl">&ltprojects/&gt</h2>
+        <div class="flex flex-col gap-6">
+            <div class="flex flex-col sm:flex-row gap-6 flex-wrap">
+                {projects.map ((item) => {
+                    return (
+                        <article class="card shadow-lg">
+                            <div class="content">
+                                <div class="flex justify-between items-center">
+                                    <h2 class="font-bold font-poppins text-xl">{item.title}</h2>
+                                    <a href={item.github} target="_blank">
+                                        <Icon name="github" />
+                                    </a>
+                                </div>
+                                <p class="text-sm">{item.stack}</p>
+                                <p class="text-base">{item.description}</p>
+                                <img src={item.imagePath} alt={item.alt} class="w-full object-cover h-60" />
+                            </div>
+                        </article>
+                    )
+                })}
+            </div>
+        </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .card {
+        background-color: #F9EDF1;
+        border-radius: 1rem;
+        background-size: cover;
+        margin: auto;
+        height: auto;
+        width: 48%;
+        padding: 2rem;
+        position: relative;
+        transition: transform 0.1s ease;
+        transform-style: preserve-3d;
+        will-change: transform;
+    }
+
+    @media (max-width: 768px) {
+    .card {
+        min-width: 100%;
+        }
+    }
+
+    
+    /* Slight parallax effect on hover */
+    .card:hover .content {
+        transform: translateZ(12px);
+    }
+
+    .content {
+        position: relative;
+        z-index: 1;
+        transition: transform 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+</style>
+
+<script>
+    const THRESHOLD = 15; // maximum threshold value
+
+    function handleHover(e) {
+        const card = e.currentTarget;
+        const { clientX, clientY, currentTarget } = e;
+        const { clientWidth, clientHeight } = currentTarget;
+        const offsetLeft = currentTarget.getBoundingClientRect().left;
+        const offsetTop = currentTarget.getBoundingClientRect().top;
+
+        const horizontal = (clientX - offsetLeft) / clientWidth;
+        const vertical = (clientY - offsetTop) / clientHeight;
+
+        const rotateX = (THRESHOLD / 2 - horizontal * THRESHOLD).toFixed(2);
+        const rotateY = (vertical * THRESHOLD - THRESHOLD / 2).toFixed(2);
+        if (card) {
+            card.style.transform = `perspective(${clientWidth}px) rotateX(${rotateY}deg) rotateY(${rotateX}deg) scale3d(1, 1, 1)`;
+        }
+    }
+
+    function resetStyles(e) {
+        const card = e.currentTarget
+        if (card) {
+            card.style.transform =
+		`perspective(${e.currentTarget.clientWidth}px) rotateX(0deg) rotateY(0deg)`;
+        }
+    }
+
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener("mousemove", handleHover);
+        card.addEventListener("mouseleave", resetStyles);
+    });
+
+</script>
