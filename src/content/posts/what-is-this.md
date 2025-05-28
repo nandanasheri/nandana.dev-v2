@@ -9,7 +9,7 @@ I built the first iteration of my personal website last summer. A friend and I w
 
 A lot changed that summer. I started coding more for myself. I tried to make things - *very finnicky* things but still things I was pretty proud of! (back then at least). When senior year came along, I had very few classes left so I shifted my focus to WiCS - Women in Computer Science, a student org at UIC I was proud to call mine for a year as Co-President. 
 
-Being a Teaching Assistant and being heavily involved with student organizations through WiCS and SparkHacks, it always gave me a chance to talk to my underclassmen and pass along pearls of wisdom founded in a lot of my own mistakes and regret. During my last weeks of graduation, I found myself helping out my younger officers on board because I wasn't going to be around anymore. 
+Being a Teaching Assistant and being heavily involved with student organizations through WiCS and SparkHacks, it always gave me a chance to talk to my underclassmen and pass along pearls of wisdom founded in a lot of my own mistakes and regret. Everytime we hosted an event, some sophomore would come to me after, introduce themselves and ask a really open ended question and I'd spend the next 20 minutes explaining recruiting in 2025 to a 19 year old. **And I really enjoyed it.** During my last weeks before graduation, I found myself helping out my younger officers on board because I wasn't going to be around anymore. 
 
 ### It wasn't like I was dying - I was just graduating!
 
