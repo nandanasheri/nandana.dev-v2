@@ -3,6 +3,16 @@ import "../styles/global.css";
 import Layout from '../layouts/Layout.astro';
 import { Icon } from 'astro-icon/components'
 
+import automate from "../assets/automate.png"
+import rewind from "../assets/rewind.gif"
+import survive from "../assets/survivex.gif"
+import silentspaces from "../assets/silentspaces.png"
+import course from "../assets/course.png"
+import cs111 from "../assets/cs111.gif"
+import sunrise from "../assets/sunrise.gif"
+
+import {Image } from "astro:assets";
+
 const projects = [
     {
         title : "SurviveX",
@@ -10,17 +20,26 @@ const projects = [
         description : "Placed first at TreeHacks 2025, this is an embedded AI assistant built for the Apple Vision Pro along with voice guidance to provide real-time survival assistance.",
         github : "https://github.com/rockuutree/SurviveX-Treehacks",
         link : "https://devpost.com/software/survivex",
-        imagePath : "/projects/survivex.gif",
+        imagePath : survive,
         alt : "dashboard of all courses"
     },
     {
         title : "chat r3wind",
         stack : "Astro | React | TypeScript | Tailwind | QwenLLM",
-        description : "chat-rewind is a privacy-focused application that provides you a Spotify like wrapped of your Whatsapp Archives",
+        description : "A privacy-focused application that provides you a Spotify like wrapped of your Whatsapp Archives all in browser so your data never leaves your system.",
         github : "https://github.com/nayarmegha/chat-rewind",
         link : "https://r3wind.chat/",
-        imagePath : "/projects/r3wind.png",
+        imagePath : rewind,
         alt : "whatsapp wrapped image"
+    },
+    {
+        title : "Sunrise w Sarv",
+        stack : "Flask | React | OpenWeatherMaps API | Python",
+        description : "An application that predicts the chances of a good sunrise for the next day based off of cloud coverage and other factors. Built for CS351 Curriculum as a Demo Project at UIC. ",
+        github : "https://github.com/University-of-Illinois-Chicago/flask-react-demo",
+        link : "https://github.com/University-of-Illinois-Chicago/flask-react-demo",
+        imagePath : sunrise,
+        alt : "dashboard of all courses"
     },
     {
         title : "course roast",
@@ -28,7 +47,7 @@ const projects = [
         description : "Built on the idea of creating more granular data, course roast aims to move away from making a class about a professor and instead focus on the class!",
         github : "https://github.com/nandinijirobe/Course-Roast",
         link : "https://github.com/nandinijirobe/Course-Roast",
-        imagePath : "/projects/course.png",
+        imagePath : course,
         alt : "dashboard of all courses"
     },
     {
@@ -37,7 +56,7 @@ const projects = [
         description : "An Application to Automate filling out Timesheet PDF's by directly accessing user's Google Calendar via OAuth2 to extract work hours and autofill the timesheet.",
         github : "https://github.com/nandanasheri/timesheet-automate",
         link : "https://github.com/nandanasheri/timesheet-automate",
-        imagePath : "/projects/automate.png",
+        imagePath : automate,
         alt : "dashboard of all courses"
     },
     {
@@ -46,7 +65,7 @@ const projects = [
         description : "Silent Spaces relies on crowdsourced info to deliver frequent, high-quality updates on crowdedness, ambient noise level, and wifi connectivity.",
         github : "https://github.com/Olympicene/Silent-Spaces",
         link : "https://github.com/Olympicene/Silent-Spaces",
-        imagePath : "/projects/automate.png",
+        imagePath : silentspaces,
         alt : "dashboard of all courses"
     },
     {
@@ -55,16 +74,7 @@ const projects = [
         description : "The official website for CS111 Summer at UIC. Built using Astro and React to showcase student projects, course logistics and updates.",
         github : "https://111-summer.cs.uic.edu/",
         link : "https://111-summer.cs.uic.edu/",
-        imagePath : "/projects/automate.png",
-        alt : "dashboard of all courses"
-    },
-    {
-        title : "Sunrise w Sarv",
-        stack : "Flask | React | OpenWeatherMaps API | Python",
-        description : "A demo application that predicts the chances of a good sunrise for the next day based off of cloud coverage and other factors. Built for CS351 at UIC (Spring 2025). ",
-        github : "https://github.com/University-of-Illinois-Chicago/flask-react-demo",
-        link : "https://github.com/University-of-Illinois-Chicago/flask-react-demo",
-        imagePath : "/projects/automate.png",
+        imagePath : cs111,
         alt : "dashboard of all courses"
     }
 ]
@@ -82,13 +92,19 @@ const projects = [
                             <div class="content">
                                 <div class="flex justify-between items-center">
                                     <h2 class="font-bold font-poppins text-xl">{item.title}</h2>
-                                    <a href={item.github} target="_blank">
+                                    <div class="flex gap-6">
+                                        <a href={item.github} target="_blank">
                                         <Icon name="github" />
-                                    </a>
+                                        </a>
+                                        <a href={item.link} target="_blank">
+                                        <Icon name="tab" />
+                                        </a>
+                                    </div>
+                                    
                                 </div>
                                 <p class="text-sm">{item.stack}</p>
                                 <p class="text-base">{item.description}</p>
-                                <img src={item.imagePath} alt={item.alt} class="w-full object-cover h-60" />
+                                <Image src={item.imagePath} alt={item.alt} class="w-full object-contain h-60" />
                             </div>
                         </article>
                     )
@@ -140,7 +156,7 @@ const projects = [
 <script>
     const THRESHOLD = 15; // maximum threshold value
 
-    function handleHover(e) {
+    function handleHover(e:any) {
         const card = e.currentTarget;
         const { clientX, clientY, currentTarget } = e;
         const { clientWidth, clientHeight } = currentTarget;
@@ -157,7 +173,7 @@ const projects = [
         }
     }
 
-    function resetStyles(e) {
+    function resetStyles(e:any) {
         const card = e.currentTarget
         if (card) {
             card.style.transform =
