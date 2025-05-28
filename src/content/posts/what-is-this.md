@@ -11,7 +11,7 @@ A lot changed that summer. I started coding more for myself. I tried to make thi
 
 Being a Teaching Assistant and being heavily involved with student organizations through WiCS and SparkHacks, it always gave me a chance to talk to my underclassmen and pass along pearls of wisdom founded in a lot of my own mistakes and regret. Everytime we hosted an event, some sophomore would come to me after, introduce themselves and ask a really open ended question and I'd spend the next 20 minutes explaining recruiting in 2025 to a 19 year old. **And I really enjoyed it.** During my last weeks before graduation, I found myself helping out my younger officers on board because I wasn't going to be around anymore. 
 
-### It wasn't like I was dying - I was just graduating!
+### It wasn't like I was dying, I was just graduating!
 
 But I did realize that documenting little things along the way for mostly my sake but also for any stranger on the internet could be my way to cope with the fact that I won't really have underclassmen to bother. I also love reading new grad software blogs and hearing others students' journies through tech. 
 
