@@ -1,10 +1,10 @@
 ---
-import {Image} from "astro:assets";
 import cloud from "../assets/cloud.svg";
 ---
 
-<div class="flex flex-col gap-3 text-dark-red text-xl md:text-2xl text-center h-[90vh] items-center justify-center">
+<div class="flex flex-col gap-3 text-dark-red text-xl md:text-2xl text-center h-[90vh] items-center justify-center bg-cover bg-center" style={`background-image: url(${cloud.src});`}>
     <h1 class="text-accent-red font-poppins text-6xl md:text-8xl font-bold">Nandana Sheri</h1>
     <h2>computer science student interested in software engineering and natural language processing</h2>
-    <h2>studying at university of michigan, ann arbor</h2>
+    <h2>studying at the university of michigan, ann arbor</h2>
+    <a class="border-2 rounded-2xl px-4 py-1 border-accent-red text-accent-red hover:text-snowhite hover:bg-accent-red mt-8 cursor-pointer transition-transform duration-200 hover:-translate-y-1" href="/NandanaSheri.pdf" target="_blank" rel="noopener noreferrer">Resume here!</a>
 </div>
