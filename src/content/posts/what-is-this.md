@@ -13,7 +13,7 @@ Being a Teaching Assistant and being heavily involved with student organizations
 
 ### It wasn't like I was dying, I was just graduating!
 
-But I did realize that documenting little things along the way for mostly my sake but also for any stranger on the internet could be my way to cope with the fact that I won't really have underclassmen to bother. I also love reading new grad software blogs and hearing others students' journies through tech. 
+But I did realize that documenting little things along the way for mostly my sake but also for any stranger on the internet could be my way to cope with the fact that I won't really have underclassmen to bother. I also love reading new grad software blogs and hearing others students' journeys through tech. So when I decided to redesign and rewrite my personal website from React to Astro, I decided to add a blog! If you're curious about my previous iteration of my personal website it's on [v1.nandana.dev](https://v1.nandana.dev/) - one of the *abovementioned* finnicky things from last summer! (that I am still proud of.)
 
 ### So.. what is this about?
 I hope to write about random life lessons, figuring out university, graduate school, computer science and hopefully some things about technology. Experience is the greatest teacher and I would like to curate those here to look back on :)

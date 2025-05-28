@@ -1,0 +1,17 @@
+---
+import "../styles/global.css";
+import Layout from '../layouts/Layout.astro';
+import { Image } from "astro:assets";
+import cat from "../assets/sadcat.png"
+---
+
+<Layout>
+	<div class="flex flex-col gap-20 mx-auto lg:max-w-4xl">
+        <div class="flex-1 flex flex-col gap-4 text-dark-red text-xl justify-center items-center mt-20">
+            <Image src={cat} alt="peach cat gif eating noodles" width={200}/>
+            <h2 class="text-accent-red font-poppins font-bold text-9xl">404</h2>
+            <h2 class="font-poppins text-2xl">nothing to see here!</h2>
+            <a class="border-2 rounded-2xl px-4 py-1 border-accent-red text-accent-red hover:text-snowhite hover:bg-accent-red cursor-pointer transition-transform duration-200 hover:-translate-y-1" href="/NandanaSheri.pdf" target="_blank" rel="noopener noreferrer">back to homepage</a>
+        </div>
+	</div>
+</Layout>
