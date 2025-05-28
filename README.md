@@ -1,6 +1,8 @@
-# nandana.dev version 2
+# nandana.dev
 
 Second iteration of my personal website. Built with Astro and Tailwind CSS. 
+
+![landing page](landing.png)
 
 ## Commands
 
