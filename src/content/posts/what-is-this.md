@@ -5,7 +5,7 @@ time: '3 min read'
 slug: 'what-is-this'
 ---
 
-I built the first iteration of my personal website last summer. A friend and I worked on our websites at the same time and though he added a blog, I *conveniently* left it out. 
+I built the first iteration of my personal website last summer. A [friend](https://olympicene.dev/) and I worked on our websites at the same time and though he added a blog, I *conveniently* left it out. 
 
 A lot changed that summer. I started coding more for myself. I tried to make things - *very finnicky* things but still things I was pretty proud of! (back then at least). When senior year came along, I had very few classes left so I shifted my focus to WiCS - Women in Computer Science, a student org at UIC I was proud to call mine for a year as Co-President. 
 
