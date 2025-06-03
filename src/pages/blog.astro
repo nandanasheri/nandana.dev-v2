@@ -5,6 +5,10 @@ import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 const posts = await getCollection('posts');
 
+const sortedPosts = posts.sort((a, b) => {
+  return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+});
+
 ---
 
 <Layout>
@@ -14,12 +18,12 @@ const posts = await getCollection('posts');
             <p>Couple of notes on a couple of things I've learnt along the way.</p>
             <div class="flex flex-col gap-3">
                 
-                {posts.map(post => (
+                {sortedPosts.map(post => (
                     <hr class="border-t border-darkgray" />
                     <div class="flex justify-between px-3 items-center">
                         <div class="flex flex-col">
                             <h1 class="font-poppins font-bold text-2xl link-highlight"><a href={`/blog/${post.data.slug}`}>{post.data.title}</a></h1>
-                            <p  class="text-base">{post.data.date}</p>
+                            <p  class="text-base">{post.data.formatdate}</p>
                         </div>
                         <p class="text-base">{post.data.time}</p>
                     </div>

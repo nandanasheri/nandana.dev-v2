@@ -1,8 +1,9 @@
 ---
 title: 'Holding myself accountable this summer'
-date: 'June 3, 2025'
-time: '3 min read'
-slug: 'summer-2026'
+date: '2025-06-03'
+formatdate: 'June 3, 2025'
+time: '2 min read'
+slug: 'summer-2025'
 ---
 
 This is my first summer where I don't have a calendar created by an external entity. And honestly that was very frightening in the beginning. This might be a bad habit but I don't really believe in a 3 month vacation after I completed my Bachelors Degree, mainly because 

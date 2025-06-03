@@ -1,6 +1,7 @@
 ---
 title: 'What is this about?'
-date: 'May 26, 2025'
+date: '2025-05-26'
+formatdate: 'May 2026, 2025'
 time: '3 min read'
 slug: 'what-is-this'
 ---

@@ -11,6 +11,7 @@ const posts = defineCollection({
     title: z.string(),
     time: z.string(),
     date: z.string(),
+    formatdate: z.string(),
     slug: z.string()
   }),
 });
