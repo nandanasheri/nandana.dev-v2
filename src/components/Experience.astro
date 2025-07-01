@@ -1,10 +1,12 @@
 ---
 const experienceList = [
-    {date:"Jan 2022 to May 2025", role:"Head Teaching Assistant", company:"UIC CS Department", desc:"Supported over 400 students by debugging in C++ & Python through regular office hours for 5 courses: Advanced Data Structures, Program Design I, Program Design II, and Discrete Mathematics."},
-    {date:"December 2024 to February 2025", role:"Curriculum Design Assistant", company:"UIC Linguistics Department", desc:"Developed an assignment to assist over 30 students in analyzing and visualizing speech data from Praat using Pandas, Seaborn, and Matplotlib, enhancing their ability to explore phonetic and phonological patterns."},
-    {date:"June 2024 to Aug 2024", role:"SWE Intern", company:"LitPath", desc:"Engineered a full-stack React Admin Portal with a MySQL backend through Develop for Good, streamlining the management of 40,000+ therapist records."},
+    {date:"June 2025 to Present", role:"LLM Researcher", company:"UIC CS Department", desc:"Building a reproducible LLM evaluation pipeline using LangChain and Ollama, aiming to benchmark multimodal LLM accuracy in generating radiology reports across 50 X-ray scans, improving diagnostic reliability."},
+    {date:"Jan 2022 to May 2025", role:"Head Teaching Assistant", company:"UIC CS Department", desc:"Guided over 300 students across 4 courses (Advanced Data Structures, Program Design I & II, and Discrete Mathematics) by debugging in C++ & Python through weekly office hours."},
+    {date:"November 2024 to May 2025", role:"CS Enrollment Lead", company:"Breakthrough Tech", desc:"Promoted and recruited a cohort of 25 students for the CS111 Summer Program under Professor Shanon Reckinger through regular mass emails and development of the CS111 Summer Website with Astro and Tailwind (111-summer.cs.uic.edu)."},
+    {date:"December 2024 to February 2025", role:"Curriculum Design Assistant", company:"UIC Linguistics Department", desc:"Developed an assignment on Google Collab to assist over 30 students in analyzing and visualizing speech data from Praat using Pandas, Seaborn, and Matplotlib, for LING220 under Professor Carrie Pichan enhancing their ability to explore phonetic and phonological patterns."},
+    {date:"June 2024 to Aug 2024", role:"SWE Intern", company:"LitPath", desc:"Designed and developed an in-house Therapist Admin Portal with React.js and MySQL for a nonprofit health provider (litpath.org), empowering staff to efficiently create, edit and search across 40,000+ therapist profiles."},
     {date:"April 2024 to Aug 2024", role:"Research Assistant", company:"Northwestern University", desc:"Implemented machine learning models using Hugging Face's Wav2Vec2Phoneme Transformer for speech disorder classification in children aged 3-5, achieving a 20% increase in diagnostic accuracy."},
-    {date:"June 2023 to Aug 2023", role:"SWE Intern", company:"CNA Insurance", desc:"Led the redevelopment of the CNA Surety Portal, modernizing it with Google Cloud Platform, React.js, and TypeScript serving over 43,000 agencies."}
+    {date:"June 2023 to Aug 2023", role:"SWE Intern", company:"CNA Insurance", desc:"Enhanced user experience for 43,000+ insurance agencies by migrating legacy jQuery-based components to React.js for the CNA Surety Portal"}
 
 ]
 
@@ -16,8 +18,8 @@ const experienceList = [
             <div class="flex flex-col pl-10">
                 <div class="absolute -left-[0.56rem] w-3 h-3 rounded-full bg-accent-red mt-12"></div>
                 <h3 class="text-3xl font-bold font-poppins">{item.role}</h3>
-                <p class="text-xl text-gray-600">{item.company} - {item.date}</p>
-                <p class="mt-2 text-sm">{item.desc}</p>
+                <p class="text-xl text-gray-500">{item.company} - {item.date}</p>
+                <p class="mt-2 text-base">{item.desc}</p>
             </div>
         ))}
     </div>

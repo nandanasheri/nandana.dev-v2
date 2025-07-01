@@ -16,7 +16,7 @@ But I am also deathly afraid that summer is going to fly by and I would have don
 ### I really hope this goes better than my new years resolutions..
 
 - leetcode consistently (150 problems? or i am shooting myself in the foot)
-- resume revamp + seek feedback + job applications 
+- ~~resume revamp + seek feedback~~ + job applications 
 - real mock interviews with strangers (imo, hardest todo)
 - tinker with ML models in the form of a project (or 2)
 - deploy a server based app
