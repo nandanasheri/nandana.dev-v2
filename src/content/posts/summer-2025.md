@@ -23,7 +23,7 @@ But I am also deathly afraid that summer is going to fly by and I would have don
 - consistency w the rec (3x + walks)
 - ~~crochet something for someone~~
 - read minimum 3 books
-- trip to nyc
+- ~~trip to nyc~~
 - DL (this is a big stretch)
 
 Maybe I should aim lower, be more realistic but I'm so used to being overly ambitious and not meeting them all *yet*, I usually end up fairly satisfied with the result because something is better than nothing!
