@@ -24,6 +24,13 @@
     font-display: block; /* This property will help us not flash unstyled text for a couple hundred milliseconds, and then it would act like font-display: swap */
     src: url('/fonts/nunito-regular.woff2') format('woff2');
   }
+  @font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block; /* This property will help us not flash unstyled text for a couple hundred milliseconds, and then it would act like font-display: swap */
+    src: url('/fonts/spectral-regular.woff2') format('woff2');
+  }
 }
 
 @theme {
@@ -34,6 +41,7 @@
   --color-lightpink: #F9EDF1;
   --font-nunito: "Nunito", "sans-serif";
   --font-poppins: "Poppins", "sans-serif";
+  --font-spectral: "Spectral", "serif";
 }
 
 .link-highlight {
