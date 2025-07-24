@@ -2,7 +2,7 @@
 title: 'The jobs I had in college that paid for my groceries'
 date: '2025-07-24'
 formatdate: 'July 24, 2025'
-time: '3 min read'
+time: '4 min read'
 slug: 'uic-jobs'
 ---
 
