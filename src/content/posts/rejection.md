@@ -2,7 +2,7 @@
 title: 'Rejection is never personal'
 date: '2025-08-08'
 formatdate: 'August 8, 2025'
-time: '2 min read'
+time: '1 min read'
 slug: 'rejection'
 ---
 
