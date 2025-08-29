@@ -17,9 +17,9 @@ But I am also deathly afraid that summer is going to fly by and I would have don
 
 - leetcode consistently (150 problems? or i am shooting myself in the foot)
 - ~~resume revamp + seek feedback~~ + job applications 
-- real mock interviews with strangers (imo, hardest todo)
+- ~~real mock interviews with strangers~~ (imo, hardest todo)
 - tinker with ML models in the form of a project (or 2)
-- deploy a server based app
+- ~~deploy a server based app~~
 - consistency w the rec (3x + walks)
 - ~~crochet something for someone~~
 - read minimum 3 books
