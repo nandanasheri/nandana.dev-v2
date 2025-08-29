@@ -15,12 +15,12 @@ But I am also deathly afraid that summer is going to fly by and I would have don
 
 ### I really hope this goes better than my new years resolutions..
 
-- leetcode consistently (150 problems? or i am shooting myself in the foot)
+- ~~leetcode consistently (150 problems? or i am shooting myself in the foot)~~ (i hit 130 good enough)
 - ~~resume revamp + seek feedback~~ + job applications 
 - ~~real mock interviews with strangers~~ (imo, hardest todo)
-- tinker with ML models in the form of a project (or 2)
+- ~~tinker with ML models in the form of a project~~ (or 2)
 - ~~deploy a server based app~~
-- consistency w the rec (3x + walks)
+- ~~consistency w the rec~~ (3x + walks)
 - ~~crochet something for someone~~
 - read minimum 3 books
 - ~~trip to nyc~~
@@ -31,6 +31,7 @@ Maybe I should aim lower, be more realistic but I'm so used to being overly ambi
 To anyone else out there who doesn't have a 9-5 this summer and is struggling to hold themselves accountable, scheduling my calendar out like I have a real job has helped a lot in terms of being productive because I am blocking out time just like I would on a job.
 
 Fairly excited to see where this summer leads me !
+
 
 
 
