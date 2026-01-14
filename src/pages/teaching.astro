@@ -1,0 +1,28 @@
+---
+import "../styles/global.css";
+import Layout from '../layouts/Layout.astro';
+
+import { getEntry, render } from 'astro:content';
+
+const entry = await getEntry('pages', 'teaching');
+if (!entry) {
+  // Handle Error, for example:
+  throw new Error('Could not find teaching');
+}
+const { Content } = await render(entry);
+
+---
+
+<Layout>
+	<div class="flex flex-col gap-20 mx-auto lg:max-w-4xl w-full">
+        <div class="flex-1 flex flex-col gap-4 text-dark-red text-xl justify-start mt-20">
+            <h2 class="text-accent-red font-poppins font-bold text-3xl mb-5">&ltteaching/&gt</h2>
+            <div class="prose lg:prose-xl">
+                <Content/>
+            </div>
+        </div>
+	</div>
+</Layout>
+
+
+
