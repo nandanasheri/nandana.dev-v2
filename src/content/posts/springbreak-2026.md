@@ -96,6 +96,8 @@ Also I had a document of everything with links, guidelines, prices to give every
 
 Thank you for reading and I hope to God that you find yourself in Utah one day. 
 
+![Group Picture](images/group-pic-springbreak.jpg)
+
 
 
 
