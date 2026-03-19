@@ -1,7 +1,7 @@
 ---
 title: 'Recruiting as a full time job'
-date: '2026-03-14'
-formatdate: 'March 14, 2026'
+date: '2026-03-18'
+formatdate: 'March 18, 2026'
 time: '10 min read'
 slug: 'recruiting'
 ---
