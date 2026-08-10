@@ -1,8 +1,9 @@
 ---
 title: 'now'
-date: 'April 15, 2026'
+date: 'August 10, 2026'
 ---
-- teaching [EECS280](https://eecs280.org/) at UofM
-- wrapping up the semester with final exams and presentations
-- moving to San Francisco in May to start my internship at DoorDash !
-- working with LangChain and models with [GigXR](https://www.gigxr.com)
+- in San Francisco for the summer!
+- spent 12 weeks at Doordash building MCP servers and eating
+- travelling to Seattle with highschool friends
+- getting back into reading 
+- basking in a walkable city 
