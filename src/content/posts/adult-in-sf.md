@@ -28,18 +28,9 @@ This might come off as ‘damn she doesn’t call her mother enough’ but my su
 
 I didn’t realize how much I missed walking until I got to San Francisco. I lived in Russian Hill - I may be dumb but that actually translates to Russian ‘HILL’. I walked up the hills of SF everyday. I hiked through the beautiful trails, I walked across the Golden Gate Bridge to Sausalito. I’ve walked till my feet hurt, till there are no more hot takes to be spoken of and I’ve loved it. Being in a walkable city means it takes so little to ‘get your steps in’. I hope that I don’t need a car until I’m 30. 
 
-![land's end](images/lands-end.png)
-Land's End has some of my favorite hike trails.
-
-![Golden Gate Bridge](images/golden-gate.png)
-This was very surreal
-
 ### 4. I don’t exercise my free will
 
 Even though I could doordash anything I wanted for lunch - I felt really guilty eating anything unhealthy on a random Tuesday afternoon. THRIVE Protein Bowls became my goto and I was on a quest to find a decent salad (which I partially failed). I hated feeling unhealthy. Even when I craved something, I had a tough time actually ordering it. My ‘cope’ became eating unhealthy on Fridays. 
-
-![Chole Bhatura](images/chole.png)
-This was my last meal at work and it was quite emotional.
 
 ### 5. I went to a lot of bakeries
 
