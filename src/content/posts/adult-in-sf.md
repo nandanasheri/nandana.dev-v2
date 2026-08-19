@@ -20,6 +20,9 @@ So what have I been up to this summer?
 
 I wouldn’t say a lot. I got to the office at 7.30am and I was usually out by 5pm. I loved my work. I loved what I got to build for my team. I basically created something from scratch so I got to decide what I want to do, and how I want to do it. In short it was an MCP Server to help my team during a migration. Doordash was fun, the engineering was a marvel and I was in amaze as to how everything came together. It's the work that I was proud of and I got quite a few compliments on what I built as engineers started using it so it definitely fueled some need for validation within me :0 I also got 25$ to Doordash whatever I want so that was fun. I also realized how much of a privilege it is to work in tech - something I will definitely think about a lot. 
 
+The recruiters hosted fun socials for us :3
+![social](images/doordash-summer3.jpg)
+
 ### 2. I talked to Claude more than I talked to my mother
 
 This might come off as ‘damn she doesn’t call her mother enough’ but my summer was a lot of Claude Code. I used $2,200 in tokens in a month. That’s more than rent. Nobody is writing code anymore and that’s just the reality. I did write code but there is an expectation to not ‘waste time writing code’. The biggest battle of my summer was balancing my velocity with my learning. Frankly I think that’s a battle I am going to keep fighting for a very very long time. 
@@ -53,6 +56,8 @@ I think the hardest transition of this summer was to not be a student. All my li
 
 So that was my summer! All in all, I loved it. I created a lot but I consumed a lot more (tokens). 
 
+We played ping pong for National Intern Day - a sport I enjoyed while being absolutely terrible at. 
+![all the SF interns](images/doordash-summer.JPG)
 
 
 
