@@ -1,9 +1,7 @@
 ---
 title: 'now'
-date: 'August 10, 2026'
+date: 'September 14, 2026'
 ---
-- in San Francisco for the summer!
-- spent 12 weeks at Doordash building MCP servers and eating
-- travelling to Seattle with highschool friends
-- getting back into reading 
-- basking in a walkable city 
+- back in Ann Arbor for final year of graduate school
+- taking Distributed Systems and Election Cybersecurity
+- trying to build something for international students
